@@ -11,6 +11,7 @@ We use Docker Desktop and DDEV for Drupal our local development.  To install Doc
 Once those are set up you can start the project by running the following commands:
 
 ```
+cd back-end
 ddev start
 ddev composer install
 ddev drush site:install --account-name=admin --account-pass=admin -y
