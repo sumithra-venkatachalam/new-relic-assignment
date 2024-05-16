@@ -2,7 +2,9 @@
 
 For this assessment we’ll be importing data from JSON into a few related entities, using the sample data here: https://jsonplaceholder.typicode.com/users.
 
-To set up the project please fork this GitHub repository to your personal account.  We use Docker Desktop and DDEV for Drupal our local development.  To install Docker and DDEV please follow their instructions here: 
+To set up the project please fork this GitHub repository to your personal account.  
+
+We use Docker Desktop and DDEV for Drupal our local development.  To install Docker and DDEV please follow their instructions here: 
 * [Docker](https://ddev.readthedocs.io/en/latest/users/install/docker-installation/)
 * [DDEV](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/)
 
@@ -15,6 +17,8 @@ ddev drush site:install --account-name=admin --account-pass=admin -y
 ddev drush pm:enable migrate migrate_plus
 ddev launch
 ```
+
+If you prefer a different local development enviroment feel free to use what you are comfortable with.
 
 Your first task is to set up two content types in Drupal 10, one for “User” and one for “Company”, each with the relevant fields from the data at the link above.
 
