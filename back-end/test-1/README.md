@@ -13,7 +13,7 @@ To install Docker and DDEV please follow their instructions here:
 Once DDEV and Docker are set up you can start the project by running the following commands:
 
 ```
-cd back-end
+cd back-end/test-1
 ddev start
 ddev composer install
 ddev drush site:install --account-name=admin --account-pass=admin -y
