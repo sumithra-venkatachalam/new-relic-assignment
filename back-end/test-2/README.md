@@ -13,11 +13,10 @@ To install Docker and DDEV please follow their instructions here:
 Once DDEV and Docker are set up you can start the project by running the following commands:
 
 ```
-cd back-end
+cd back-end/test-2
 ddev start
 ddev composer install
 ddev drush site:install --account-name=admin --account-pass=admin -y
-ddev drush pm:enable migrate migrate_plus
 ddev launch
 ```
 
@@ -47,7 +46,7 @@ Bonus points for
   2. Adding QR code on each movie page which takes the user to its trailer in Youtube. The text should read - Scan the QR code to watch the trailer of this movie. Youtube link can be stored as a separate field.
 
 
-Once you’re done, double and triple check your code, including code style to make sure it is up to Drupal standards. Add notes to the module's README.md with a high level overview on your approach and any commands that need to be run for the setup. Also, make sure nothing is hard-coded and you should use configurations where ever required.
+Once you’re done, double and triple check your code, including code style to make sure it is up to Drupal standards. Add notes to the module's README.md with a high level overview on your approach and any commands that need to be run for the setup. Also, make sure nothing is hard-coded and you should use configurations where ever required. Also, we can add .gitignore file as per Drupal recommendations.
 
 Email a link back to your repository for us to review. We should be able to clone it locally, run the ddev commands above plus any commands in the module's README.md file to see your work.
 
