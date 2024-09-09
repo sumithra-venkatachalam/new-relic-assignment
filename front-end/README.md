@@ -1,6 +1,25 @@
 # Front End Coding Test
 
-For the assessment we’ll be building out a responsive static html page that matches the designs [here](https://www.figma.com/design/oVC5v6aSlO2MhbQEobgzn2/old-pricing-page?node-id=0-1). If you have any issues with the Figma link please use the images in the [examples](examples/desktop-pricing.jpg) folder.
+For the assessment we’ll be building out a responsive static html page that matches the designs in the [examples](examples/desktop-pricing.jpg) folder. [Desktop](examples/desktop-pricing.jpg) [examples](examples/375 -pricing.jpg)
+
+Please use the following font base specs:
+* Font: Open sans
+* H1: 40px, LH 48px, weight 400  
+* H2: 32px, LH 48px, weight 400
+* H3: 24px, LH 32px, weight 600
+* H4: 20px, LH 28px, weight 600
+* Body: 16px LH 28px
+* Links: 16px, LH 28px, weight 600
+
+Colors:
+* Charcoal: #2C2C2C
+* Teal: #0AB0BF
+* Blue: #0069CE
+* Dark Teal (Green): #00838F
+* Orange: #FF8853
+
+Some of the font and layout elements will need custom sizing. Please estimate what looks closest to the design images and do your best.
+
 
 We have included an empty JavaScript file and set up TailwindCSS in the build process. We want to see you write HTML and JavaScript from scratch as much as possible while using [TailwindCSS](https://tailwindcss.com/docs/utility-first) utility classes for styling. 
 
