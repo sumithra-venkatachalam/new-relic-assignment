@@ -1,6 +1,6 @@
 # Front End Coding Test
 
-For the assessment we’ll be building out a responsive static html page that matches the designs in the [examples](examples/desktop-pricing.jpg) folder. [Desktop](examples/desktop-pricing.jpg) [examples](examples/375 -pricing.jpg)
+For the assessment we’ll be building out a responsive static html page that matches the designs in the [examples](examples/desktop-pricing.jpg) folder. [Desktop](examples/desktop-pricing.jpg), [Mobile](examples/375-pricing.jpg) and [Tablet](examples/768-pricing.jpg)
 
 Please use the following font base specs:
 * Font: Open sans
