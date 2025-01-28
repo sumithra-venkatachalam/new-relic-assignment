@@ -65,6 +65,7 @@ This submission contains the completed Cypress QA Assessment, including all requ
      - Let users know about volunteer opportunities, provide an easy sign-up form. Make sure it's easy for people to sign          up and get started.
        ```bash
        it("Should display a list of available volunteer roles", () => {});
+       it("All volunteers should be able to sign up separately", () => {});
        ```
 
   **Why This Prioritization?**
