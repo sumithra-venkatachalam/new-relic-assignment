@@ -1,104 +1,83 @@
-# Cypress QA Assessment
+# Assignment Submission: Cypress QA Assessment
 
 ## Overview
-This repository contains a Cypress framework for testing the functionality of a website. The goal of this assessment is to evaluate your ability to write effective automated tests and strategize testing priorities for a website.
-
-### Website Under Test
-The website to be tested is [WeRateDogs](https://weratedogs.com).
+This submission contains the completed Cypress QA Assessment, including all required test cases and the strategy test. Below are the details:
 
 ---
 
-## Getting Started
+## Submission Details
+- **Repository Link**: [https://github.com/sumithra-venkatachalam/new-relic-assignment.git](https://github.com/sumithra-venkatachalam/new-relic-assignment.git)
+- **Test Framework**: Cypress
+- **Website Tested**: [WeRateDogs](https://weratedogs.com)
+- **Command to Run all the tests from CLI**
+  ```bash
+  npx cypress run --spec 'cypress/e2e/*'
+  ```
+---
 
-### Prerequisites
-Ensure you have the following installed on your local machine:
-- Node.js (v14 or above)
-- npm (Node Package Manager)
+## Completed Tasks
 
-### Setup Instructions
-1. **Fork the Repository**:
-   Fork this repository to your personal GitHub account.
+### Code Tests
 
-2. **Clone the Repository**:
-   Clone your forked repository locally using:
+1. **Code Test One:**
+   - Defined the site under test in the Cypress configuration file.
+
+2. **Code Test Two:**
+   - Implemented a test case to validate the links in the `<header>` navigation.
+   - Test File: `cypress/e2e/header.cy.js`
+
+3. **Code Test Three:**
+   - Created a reusable custom command for link checking.
+   - Used the command to test the links in the `<footer>` navigation.
+   - Test File: `cypress/e2e/footer.cy.js`
+
+4. **Code Test Four:**
+   - Wrote a test case to add an item to the shopping cart and asserted that the correct item was added.
+   - Test File: `cypress/e2e/shopping.cy.js`
+
+5. **Code Test Five:**
+   - Created two test cases to search for "hoodie":
+     - One test case fails the assertion.
+     - One test case passes the assertion.
+   - Test File: `cypress/e2e/search.cy.js`
+
+### Strategy Test
+- **Testing Prioritization for Cat Adoption Team Website**
+  - Prioritized testing goals for fundraising and cat adoptions.
+
+---
+
+## How to Run the Tests
+1. Clone the repository locally:
    ```bash
    git clone https://github.com/sumithra-venkatachalam/new-relic-assignment.git
    ```
-
-3. **Navigate to the QA Directory**:
+2. Navigate to the `qa` directory:
    ```bash
    cd qa
    ```
-
-4. **Install Dependencies**:
-   Install the required dependencies by running:
+3. Install dependencies:
    ```bash
    npm install
    ```
-
-5. **Start Cypress**:
-   Open the Cypress Test Runner:
+4. Open the Cypress Test Runner:
    ```bash
    npx cypress open
    ```
+5. Run the tests using the Test Runner interface.
+
+6. 
 
 ---
 
-## Test Instructions
-Below are the tests to implement as part of the assessment:
-
-### Code Test One
-**Define the Site Under Test:**
-Ensure the site under test is defined in Cypress configuration.
-
-### Code Test Two
-**Header Navigation Test:**
-Write a test case to check the links in the `<header>` navigation. Create the test in `cypress/e2e/header.cy.js`.
-
-### Code Test Three
-**Footer Navigation Test with Reusable Command:**
-1. Convert the link checker used in the `<header>` navigation test into a reusable custom command.
-2. Use this command to test the links in the `<footer>` navigation.
-3. Create the test in `cypress/e2e/footer.cy.js`.
-
-### Code Test Four
-**Shopping Cart Test:**
-Write a test to:
-1. Add an item to the shopping cart.
-2. Assert that the product added is the one intended.
-
-Create the test in `cypress/e2e/shopping.cy.js`.
-
-### Code Test Five
-**Search Functionality Test:**
-1. Write a test block (`it` block) that searches for "hoodie" and fails at the assertion.
-2. Write another test block that searches for "hoodie" and passes at the assertion.
-
-Create the test in `cypress/e2e/search.cy.js`.
+## Notes
+- All tests are located in the `cypress/e2e` folder.
+- The custom command for link validation is located in `cypress/support/commands.js`.
+- Cypress configuration is updated in `cypress.config.js`.
 
 ---
 
-## Strategy Test (No Code Required)
-**Testing Prioritization for a New Website:**
-For the website [Cat Adoption Team](https://catadoptionteam.org), prioritize testing for the following goals:
-1. **Fundraising:** Ensure donation workflows are smooth and error-free.
-2. **Cat Adoptions:** Validate that users can:
-   - Search for adoptable cats.
-   - View detailed cat profiles.
-   - Submit adoption applications.
-
-Highlight testing strategies and coverage in a structured document. No code is needed for this part.
-
----
-
-## Submission Guidelines
-1. Commit your changes to your local repository.
-2. Push your changes to your forked GitHub repository.
-3. Provide a link to your forked repository with your completed work.
-
----
-
-## Directory Structure
+## Repository Structure
 ```
 qa/
 ├── cypress/
@@ -107,14 +86,21 @@ qa/
 │   │   ├── footer.cy.js
 │   │   ├── shopping.cy.js
 │   │   └── search.cy.js
-│   ├── fixtures/
-│   ├── screenshots/
+│   ├── fixtures/*
+│   ├── screenshots/*
 │   ├── support/
 │   │   ├── commands.js
 │   │   └── e2e.js
 ├── node_modules/
-├── cypress.config.js
 ├── package.json
 ├── package-lock.json
+├── cypress.config.js
 └── README.md
 ```
+
+---
+
+## Contact
+If you have any questions or require further clarifications, feel free to reach out.
+
+Thank you for the opportunity!
