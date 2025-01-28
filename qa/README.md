@@ -43,7 +43,36 @@ This submission contains the completed Cypress QA Assessment, including all requ
 
 ### Strategy Test
 - **Testing Prioritization for Cat Adoption Team Website**
-  - Prioritized testing goals for fundraising and cat adoptions.
+  1. **Adopt a Cat**
+     - Make it easy for users to adopt cats by providing smooth navigation . Includes clear information on how to adopt,           adoption fees and a list of available cats and kittens.
+       ```bash
+       it("Should display the correct details on each cat's profile page", () => {});
+       it("Should validate required fields in the adoption form", () => {});
+       it("Should submit the adoption form and show a confirmation message", () => {});
+       ```
+
+  2. **Make a Donation**
+     - Make it easy for people to donate , make sure payments are safe and send a confirmation and thank you note to again         trust and encourage more donations.
+       ```bash
+       it("Should display predefined donation amounts and a custom input option", () => {});
+       it("Should allow users to select between one-time and recurring donations", () => {});
+       it("Should validate payment details and display errors for invalid entries", () => {});
+       it("Should process the payment and show a confirmation page", () => {});
+       it("Should send a thank-you email with a donation receipt", () => {});
+       ```
+
+  3. **Become a Volunteer**
+     - Let users know about volunteer opportunities, provide an easy sign-up form. Make sure it's easy for people to sign          up and get started.
+       ```bash
+       it("Should display a list of available volunteer roles", () => {});
+       ```
+
+  **Why This Prioritization?**
+  1. *Adopt a Cat* is prioritized because the core mission is to find homes for cats.
+  2. *Make a Donation* supports the organization's sustainability and mission.
+  3. *Become a Volunteer* ensures operational support for ongoing efforts.
+
+  Focusing on these critical paths aligns testing with the organization's goals while providing high value to users.
 
 ---
 
