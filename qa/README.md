@@ -65,9 +65,6 @@ This submission contains the completed Cypress QA Assessment, including all requ
    npx cypress open
    ```
 5. Run the tests using the Test Runner interface.
-
-6. 
-
 ---
 
 ## Notes
