@@ -54,7 +54,7 @@ This submission contains the completed Cypress QA Assessment, including all requ
   2. **Make a Donation**
      - Make it easy for people to donate , make sure payments are safe and send a confirmation and thank you note to again         trust and encourage more donations.
        ```bash
-       it("Should display predefined donation amounts and a custom input option", () => {});
+       it("Should display predefined donation amounts and a input option", () => {});
        it("Should allow users to select between one-time and recurring donations", () => {});
        it("Should validate payment details and display errors for invalid entries", () => {});
        it("Should process the payment and show a confirmation page", () => {});
@@ -65,6 +65,7 @@ This submission contains the completed Cypress QA Assessment, including all requ
      - Let users know about volunteer opportunities, provide an easy sign-up form. Make sure it's easy for people to sign          up and get started.
        ```bash
        it("Should display a list of available volunteer roles", () => {});
+       it("All volunteers should be able to sign up separately", () => {});
        ```
 
   **Why This Prioritization?**
