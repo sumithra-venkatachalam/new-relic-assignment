@@ -1,4 +1,5 @@
 it("Adding Items to the Cart", () => {
+  //Declaring the product specifications
   let product = "Classic Tee - Black";
   let size = "Large";
   let quantity = 5;
@@ -17,6 +18,7 @@ it("Adding Items to the Cart", () => {
   for (let add = 1; add <= quantity; add++)
     cy.get('[class="quantity__button"]').eq(-1).click();
   cy.get("button").contains("Add to cart").click({ force: true });
+  //No Thanks popup getting displayed thrice, when viewing cart in this website
   cy.contains("No Thanks").click();
   cy.contains("No Thanks").click();
   cy.contains("No Thanks").click();

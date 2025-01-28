@@ -32,6 +32,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
  Cypress.Commands.add('checkLinks', (selector) => {
       cy.get(selector).should('be.visible').each(($link) => {
+         //Retrieving href and cheking it is active or not
         const href = $link.attr('href');
        if (href && !href.startsWith('http')) {
           cy.request(href).its('status').should('eq',200);
