@@ -22,7 +22,7 @@ Ensure you have the following installed on your local machine:
 2. **Clone the Repository**:
    Clone your forked repository locally using:
    ```bash
-   git clone <your-forked-repo-url>
+   git clone [https://github.com/sumithra-venkatachalam/new-relic-assignment](https://github.com/sumithra-venkatachalam/new-relic-assignment.git)
    ```
 
 3. **Navigate to the QA Directory**:
